@@ -1,8 +1,20 @@
 .bookDetail-wrapper { 
-    font-family: 'Source Sans Pro', sans-serif; 
-    color: #4c4a37;
-    font-size: 15px; 
-    line-height: 32px; 
-    margin: 0 0 24px; 
-    padding: 80px;
+    display: flex;
+    margin-top: 4em;
 }
+
+.bookDetail-image {
+    object-fit: cover;
+    padding: 2em;
+}
+
+.bookDetail-details {
+    padding: 2em;
+    text-align: justify;
+    line-height: 30px; 
+    font-size: 15px;
+    color: #4c4a37;
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-align:start;
+}
+

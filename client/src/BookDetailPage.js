@@ -29,11 +29,19 @@ export default function BookDetailPage() {
     <div>
       <BooksHero title="AutieReads"/>
     </div>
-    {book ? 
+
+    {book ?
     <div className="bookDetail-wrapper">
-      <h3>{book.title} by {book.author}</h3>
-      <p>{book.description}</p>
+      <div className="bookDetail-image">
+      <img src={book.image}></img>
       </div>
+
+      <div className="bookDetail-details">
+        <h3>{book.title} by {book.author}</h3>
+        <p>{book.description}</p>
+      </div>
+    </div>
+
     : null}
     </>
   )
