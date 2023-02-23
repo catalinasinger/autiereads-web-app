@@ -1,0 +1,15 @@
+h2 {
+  color: #7c795d; 
+  font-family: 'Trocchi', serif; 
+  font-size: 150px; 
+  font-weight: bolder; 
+  line-height: 48px; 
+  margin: 0; 
+  padding: 40px;
+}
+
+.BooksHero-sub {
+    font-family: 'Raleway',sans-serif;
+    color: #4c4a37;
+    font-size: 15px;
+}

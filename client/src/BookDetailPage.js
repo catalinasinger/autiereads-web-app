@@ -27,7 +27,7 @@ export default function BookDetailPage() {
   return (
     <>
     <div>
-      <BooksHero title="AutieReads"/>
+      <BooksHero title="AutiReads"/>
     </div>
 
     {book ?
@@ -37,7 +37,8 @@ export default function BookDetailPage() {
       </div>
 
       <div className="bookDetail-details">
-        <h3>{book.title} by {book.author}</h3>
+        <h3>{book.title}</h3>
+        <h4>by {book.author}</h4>
         <p>{book.description}</p>
       </div>
     </div>

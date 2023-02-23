@@ -10,6 +10,7 @@ export default function FilteredBooksList({ filteredBooks }) {
             id={book.id}
             title={book.title}
             author={book.author}
+            category={book.category}
             description={book.description}
             image={book.image}
           />

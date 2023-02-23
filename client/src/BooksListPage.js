@@ -3,6 +3,7 @@ import BooksHero from './components/BooksHero'
 import BooksSearchBar from './components/BooksSearchBar'
 import BooksList from './components/BooksList'
 import FilteredBooksList from './components/FilteredBooksList';
+import BooksSubHeader from './components/BooksSubHeader';
 
 const BooksListPage = () => {
   const [books, setBooks] = useState([])
@@ -34,7 +35,8 @@ const BooksListPage = () => {
 
   return (
   <div>
-    <BooksHero title="AutieReads">
+    <BooksHero title="AutiReads">
+      <BooksSubHeader />
       <BooksSearchBar onChange={handleChange}/>
     </BooksHero>
     {filteredBooks? <FilteredBooksList filteredBooks={filteredBooks} />
